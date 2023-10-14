@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9QD-bZ-X26">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab5_nihalsuneer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="willian-justen-de-vasconcellos-tczuhvIClQg-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="GbX-Ye-cNG">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3B-rS-N4i">
+                                <rect key="frame" x="158" y="445" width="78" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Level 2"/>
+                                <connections>
+                                    <segue destination="O0b-ey-HbD" kind="show" id="fsa-Qg-IwA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgM-S3-6E9">
+                                <rect key="frame" x="159" y="355" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Level 1"/>
+                                <connections>
+                                    <segue destination="laV-cx-Hoa" kind="show" id="M2J-VL-aEc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtF-ez-8gr">
+                                <rect key="frame" x="309" y="775" width="50" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <segue destination="YWJ-yI-mAI" kind="show" id="brF-Uh-4nw"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="My Story Book" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fi9-YG-b4K">
+                                <rect key="frame" x="136" y="134" width="123" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GbX-Ye-cNG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Yq-oR-ObJ"/>
+                            <constraint firstItem="GbX-Ye-cNG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="513-SG-eD2"/>
+                            <constraint firstAttribute="trailing" secondItem="GbX-Ye-cNG" secondAttribute="trailing" id="Tno-MX-UTd"/>
+                            <constraint firstAttribute="bottom" secondItem="GbX-Ye-cNG" secondAttribute="bottom" id="s85-cd-XVJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RnY-cl-ljW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CVN-hj-w54">
+            <objects>
+                <viewController id="YWJ-yI-mAI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3mW-xN-OCN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="willian-justen-de-vasconcellos-tczuhvIClQg-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="HuI-1p-AY8">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome to 'My Story Book'" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TE0-tf-foK">
+                                <rect key="frame" x="91" y="164" width="211" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sOB-Q4-kwW">
+                                <rect key="frame" x="52" y="248" width="240" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Level 1: In the Level you can find some stories that is applicable for children that is in a age group of 4-6 yeras old  .</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lPC-py-Fb0">
+                                <rect key="frame" x="52" y="405" width="240" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Level 2: In the Level you can find some stories that is applicable for children that is in a age group of 7-9 yeras old  .</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lUB-sG-SkY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HuI-1p-AY8" firstAttribute="leading" secondItem="3mW-xN-OCN" secondAttribute="leading" id="36g-aF-5HE"/>
+                            <constraint firstAttribute="bottom" secondItem="HuI-1p-AY8" secondAttribute="bottom" id="eH0-GL-iuu"/>
+                            <constraint firstItem="HuI-1p-AY8" firstAttribute="top" secondItem="3mW-xN-OCN" secondAttribute="top" id="mP7-0h-gtn"/>
+                            <constraint firstAttribute="trailing" secondItem="HuI-1p-AY8" secondAttribute="trailing" id="uDM-Zg-ZKQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Le6-iL-D8U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKT-EQ-dTM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.610687022900763" y="819.71830985915494"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aSs-WD-xuZ">
+            <objects>
+                <viewController id="O0b-ey-HbD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dvk-hv-VKx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="willian-justen-de-vasconcellos-tczuhvIClQg-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="IAP-iF-phb">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YN6-RL-m2T">
+                                <rect key="frame" x="158" y="409" width="77" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Story 1"/>
+                                <connections>
+                                    <segue destination="JOj-q1-aWn" kind="show" id="edI-f2-PgP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7lA-na-4Ln"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IAP-iF-phb" firstAttribute="leading" secondItem="dvk-hv-VKx" secondAttribute="leading" id="IkN-Be-Nox"/>
+                            <constraint firstAttribute="trailing" secondItem="IAP-iF-phb" secondAttribute="trailing" id="KIf-Vj-I0z"/>
+                            <constraint firstAttribute="bottom" secondItem="IAP-iF-phb" secondAttribute="bottom" id="U87-HI-AIt"/>
+                            <constraint firstItem="IAP-iF-phb" firstAttribute="top" secondItem="dvk-hv-VKx" secondAttribute="top" id="tAx-4D-Mq5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="U2y-xI-q0I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0la-BB-f5P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049.6183206106871" y="532.3943661971831"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Sdk-mg-IVd">
+            <objects>
+                <viewController id="JOj-q1-aWn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V2a-Vf-rv8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="915537cc9da9e502663d4e66a4dac40f" translatesAutoresizingMaskIntoConstraints="NO" id="Vcj-cR-hzf">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EyL-YS-zPd">
+                                <rect key="frame" x="146" y="743" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Next Page"/>
+                                <connections>
+                                    <segue destination="rC1-5l-5Uh" kind="show" id="1fI-9y-lB6"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Magical Acorn Adventure" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YO4-T8-Lgl">
+                                <rect key="frame" x="87" y="137" width="219" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IDF-2x-jSt">
+                                <rect key="frame" x="42" y="212" width="310" height="500.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Once upon a time, in a charming forest, there was a small squirrel named Squeaky. Squeaky was known for his insatiable curiosity and boundless energy. One sunny morning, while scampering through the woods, he stumbled upon a tiny, glittering acorn.In this enchanted realm, the trees were tall and wore coats of rainbow-colored leaves. Flowers sang sweet melodies, and animals danced in harmony. Squeaky met a wise old owl who told him that this world had been in trouble, slowly losing its magic.The magical acorn, the owl explained, was the key to restoring the magic. Squeaky felt a sense of responsibility and determination. With newfound friends, he embarked on a quest to gather the rarest, most colorful feathers from the birds of the forest to reignite the magic.Throughout the adventure, Squeaky faced challenges, learned lessons of courage and friendship, and discovered the true power of believing in himself. With each feather collected, the magical acorn's glow grew stronger.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q4Q-kb-xsJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vcj-cR-hzf" firstAttribute="leading" secondItem="V2a-Vf-rv8" secondAttribute="leading" id="Cnx-jr-6uZ"/>
+                            <constraint firstAttribute="bottom" secondItem="Vcj-cR-hzf" secondAttribute="bottom" id="Q2F-AE-7LD"/>
+                            <constraint firstAttribute="trailing" secondItem="Vcj-cR-hzf" secondAttribute="trailing" id="ed9-W6-ZhF"/>
+                            <constraint firstItem="Vcj-cR-hzf" firstAttribute="top" secondItem="V2a-Vf-rv8" secondAttribute="top" id="o2G-D6-4iL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aYO-Fv-A5i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yJS-vj-Os9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2191.6030534351144" y="535.91549295774655"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mhD-mv-Ey5">
+            <objects>
+                <viewController id="rC1-5l-5Uh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nQF-gQ-Aic">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="915537cc9da9e502663d4e66a4dac40f" translatesAutoresizingMaskIntoConstraints="NO" id="HCy-F4-QrP">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="It7-hE-Owk">
+                                <rect key="frame" x="41" y="195" width="310" height="417"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Finally, the day arrived when Squeaky and his friends placed the last feather on the acorn. The acorn shone brilliantly, and the entire enchanted world burst into life, vibrant and magical once more.Squeaky returned to his own forest, but he knew he'd always hold the memories of his magical adventure close to his heart. He also realized that he didn't need the magical acorn to make his own world special, for he'd found magic within himself.As he curled up in his treehouse that night, Squeaky felt grateful for the magical acorn, the adventure it had brought, and the friends he'd made along the way.And so, the story of Squeaky and the magical acorn became a beloved legend in the forest, teaching all who heard it the value of believing in magic, both within and around them.The end.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rxL-q6-y8X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="HCy-F4-QrP" secondAttribute="bottom" id="Efo-iM-CAk"/>
+                            <constraint firstItem="HCy-F4-QrP" firstAttribute="top" secondItem="nQF-gQ-Aic" secondAttribute="top" id="RR1-xI-ycg"/>
+                            <constraint firstItem="HCy-F4-QrP" firstAttribute="leading" secondItem="nQF-gQ-Aic" secondAttribute="leading" id="aah-Vf-S8K"/>
+                            <constraint firstAttribute="trailing" secondItem="HCy-F4-QrP" secondAttribute="trailing" id="kiV-tK-1yy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cwW-ql-7jc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7sb-g3-ncJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3414.5038167938928" y="539.43661971830988"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="89g-f2-CGr">
+            <objects>
+                <viewController id="laV-cx-Hoa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cRe-VX-Grm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="willian-justen-de-vasconcellos-tczuhvIClQg-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="OpE-0N-Vv3">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0g-Yu-Jaq">
+                                <rect key="frame" x="158" y="323" width="77" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Story 1"/>
+                                <connections>
+                                    <segue destination="LjE-WG-GDq" kind="show" id="XQX-mn-H45"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STr-mm-Myk">
+                                <rect key="frame" x="157" y="435" width="79" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Story 2"/>
+                                <connections>
+                                    <segue destination="9XB-wX-jy8" kind="show" id="5wD-5n-A0d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dno-VA-67m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="OpE-0N-Vv3" secondAttribute="bottom" id="3lf-iD-dUd"/>
+                            <constraint firstAttribute="trailing" secondItem="OpE-0N-Vv3" secondAttribute="trailing" id="S54-Jj-Fio"/>
+                            <constraint firstItem="OpE-0N-Vv3" firstAttribute="leading" secondItem="cRe-VX-Grm" secondAttribute="leading" id="clE-P8-KCM"/>
+                            <constraint firstItem="OpE-0N-Vv3" firstAttribute="top" secondItem="cRe-VX-Grm" secondAttribute="top" id="q4S-ip-rXr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WvM-9a-Wy5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKK-lt-fWQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1017.5572519083969" y="-693.66197183098598"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2kX-jC-DtC">
+            <objects>
+                <viewController id="9XB-wX-jy8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S76-jd-Q6Z">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="915537cc9da9e502663d4e66a4dac40f" translatesAutoresizingMaskIntoConstraints="NO" id="cN8-4D-y1Y">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Little Seed's Journey" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ss-RH-ZIU">
+                                <rect key="frame" x="96" y="142" width="201" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wnp-qx-m4P">
+                                <rect key="frame" x="41" y="219" width="310" height="534"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Once upon a time, in a cozy garden, there lived a little seed named Sammy. Sammy was small and ordinary, just like all the other seeds, but he was full of curiosity.One sunny morning, Sammy felt a gentle breeze and heard a whisper from the wind. It said, "Sammy, it's time to grow."Excited and a little scared, Sammy pushed his way through the soil. He discovered the warm sun, the cool rain, and the songs of the birds. Each day, Sammy grew a little taller and a little stronger.Seasons passed, and Sammy turned into a beautiful sunflower, its golden petals reaching for the sky. Bees and butterflies visited him, and children would come to admire his beauty.One day, a child's voice said, "This sunflower is the tallest and brightest of all. It's special."Sammy realized that even a small, ordinary seed like him could grow into something extraordinary when given the chance. And so, he beamed with pride, knowing that every little seed had the potential to be amazing, just like him.The end.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eoh-ll-EQA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cN8-4D-y1Y" secondAttribute="bottom" id="8M8-F5-Zyo"/>
+                            <constraint firstItem="cN8-4D-y1Y" firstAttribute="top" secondItem="S76-jd-Q6Z" secondAttribute="top" id="8eM-b6-gSP"/>
+                            <constraint firstItem="cN8-4D-y1Y" firstAttribute="leading" secondItem="S76-jd-Q6Z" secondAttribute="leading" id="C5S-vx-dWf"/>
+                            <constraint firstAttribute="trailing" secondItem="cN8-4D-y1Y" secondAttribute="trailing" id="aRr-EI-J0s"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="TdE-rm-IDt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zka-lb-O3E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2266" y="-281"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5G5-GH-YG7">
+            <objects>
+                <viewController id="LjE-WG-GDq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aHQ-wn-fjQ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="915537cc9da9e502663d4e66a4dac40f" translatesAutoresizingMaskIntoConstraints="NO" id="Vqv-LO-BHa">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Little Star's Big Dream" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e4H-3d-vC5">
+                                <rect key="frame" x="97" y="120" width="201" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WQA-ns-EER">
+                                <rect key="frame" x="42" y="191" width="310" height="534"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Once upon a time, in a glittering galaxy far, far away, there was a little star named Stella. Stella lived in the Stardust Meadow, surrounded by her twinkling star friends. Every night, they would light up the sky with their soft, soothing glow, and children on Earth would gaze up and make wishes upon the stars.But Stella had a dream, a dream that was bigger than the galaxy itself. She didn't want to be just another twinkle in the night sky; she wanted to be the brightest star of them all. She wanted to make the most special wish come true.One night, Stella decided it was time to chase her dream. She gathered all her courage and whispered to her friends, "I'm going to the Great Comet, and I'm going to make the most incredible wish. I'll come back to tell you all about it!"Stella began her journey, and as she left the Stardust Meadow, her friends wished her luck. The journey through space was long and filled with challenges. Stella had to dodge shooting stars, play hide-and-seek with the planets, and find her way through cosmic clouds. But she didn't give up. She was determined to reach the Great Comet</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lf5-tD-nFH">
+                                <rect key="frame" x="146" y="750" width="102" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Next Page"/>
+                                <connections>
+                                    <segue destination="WzD-oZ-Lmg" kind="show" id="Eh2-PU-J4q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="t6B-hW-SJb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vqv-LO-BHa" firstAttribute="top" secondItem="aHQ-wn-fjQ" secondAttribute="top" id="0Ri-gz-UlR"/>
+                            <constraint firstAttribute="trailing" secondItem="Vqv-LO-BHa" secondAttribute="trailing" id="5fv-2s-ORa"/>
+                            <constraint firstItem="Vqv-LO-BHa" firstAttribute="leading" secondItem="aHQ-wn-fjQ" secondAttribute="leading" id="uK8-rt-TTE"/>
+                            <constraint firstAttribute="bottom" secondItem="Vqv-LO-BHa" secondAttribute="bottom" id="zu8-vX-i3W"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4M7-xz-KiT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A5n-sf-R1H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2278.6259541984732" y="-1070.4225352112676"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dRc-lz-dNF">
+            <objects>
+                <viewController id="WzD-oZ-Lmg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tGF-Kl-D27">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="915537cc9da9e502663d4e66a4dac40f" translatesAutoresizingMaskIntoConstraints="NO" id="rAv-Me-nsI">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="axW-b6-hfG">
+                                <rect key="frame" x="35" y="149" width="320" height="383.66666666666669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">As she returned to the Stardust Meadow, Stella was surprised by what she saw. The sky was filled with countless sparkling stars, each one brighter than before. Her friends had joined her in her wish, and together, they lit up the night sky like never before.From that day on, whenever children on Earth looked up and made a wish, they knew that Stella and her friends were there, shining their love and dreams upon them. Stella had achieved her big dream, not by being the brightest star, but by making wishes come true for others.And so, every night, children all over the world would smile at the shining stars and say, "Thank you, Stella, for making our dreams come true." And Stella, in her cozy spot in the Stardust Meadow, would twinkle brighter than ever, knowing that the biggest dreams come true when you share them with others.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cOs-Bw-5cl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rAv-Me-nsI" secondAttribute="bottom" id="Gsi-S2-bqt"/>
+                            <constraint firstItem="rAv-Me-nsI" firstAttribute="top" secondItem="tGF-Kl-D27" secondAttribute="top" id="RYX-iU-1XW"/>
+                            <constraint firstItem="rAv-Me-nsI" firstAttribute="leading" secondItem="tGF-Kl-D27" secondAttribute="leading" id="dnc-Ns-X65"/>
+                            <constraint firstAttribute="trailing" secondItem="rAv-Me-nsI" secondAttribute="trailing" id="eyz-4Z-xBz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="d37-La-HdH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jh1-rp-iyq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3406.8702290076335" y="-1070.4225352112676"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vzh-sH-Y9u">
+            <objects>
+                <navigationController id="9QD-bZ-X26" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5gI-7l-e34">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rCC-PX-Dyr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aro-00-XG3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-715" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="915537cc9da9e502663d4e66a4dac40f" width="1400" height="2488"/>
+        <image name="willian-justen-de-vasconcellos-tczuhvIClQg-unsplash" width="3073" height="5463"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
